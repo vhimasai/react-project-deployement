@@ -1,8 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 
-const apiBaseUrl =
-  "http://testvenki.southindia.cloudapp.azure.com:3001/api/v1/";
+const apiBaseUrl = "http://20.235.169.49:3001/api/v1/";
 
 function App() {
   const [tasks, setTasks] = useState([]);
