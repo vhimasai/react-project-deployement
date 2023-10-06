@@ -1,7 +1,8 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 
-const apiBaseUrl = "http://20.235.169.49:3001/api/v1/";
+const apiBaseUrl =
+  "https://ashy-meadow-04e2b4800.3.azurestaticapps.net/api/v1/";
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <div>
+      <h2>Home................!!!!!</h2>
       {tasks &&
         tasks.map((task, index) => {
           return <h3 key={index}>{task.title}</h3>;
