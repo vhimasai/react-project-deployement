@@ -1,8 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 
-const apiBaseUrl =
-  "https://ashy-meadow-04e2b4800.3.azurestaticapps.net/api/v1/";
+const apiBaseUrl = "https://nodevk.azurewebsites.net/api/v1/";
 
 function App() {
   const [tasks, setTasks] = useState([]);
